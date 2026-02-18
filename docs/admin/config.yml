@@ -9,11 +9,34 @@ media_folder: "sites/biothermica.com/files"
 public_folder: "sites/biothermica.com/files"
 
 collections:
-
+  - name: "en_homepage"
+    label: "EN Homepage"
+    files:
+      - file: "docs/en/index.html"
+        label: "Homepage"
+        name: "en_home"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Language", name: "lang", widget: "hidden", default: "en" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
+          - { label: "Meta Description", name: "meta_description", widget: "text", required: false }
+          - { label: "RSS Feed Title", name: "rss_feed_title", widget: "string", required: false }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - { label: "Path EN", name: "path_en", widget: "string", required: false }
+          - { label: "Path FR", name: "path_fr", widget: "string", required: false }
+  
+          - label: "Page Content (HTML)"
+            name: "body"
+            widget: "code"
+            default_language: "html"
+            output_code_only: true
+  
   - name: "en_pages"
     label: "English Pages"
     folder: "docs/en"
     extension: "html"
+    create: true
     format: "frontmatter"
     slug: "{{slug}}"
     fields:
