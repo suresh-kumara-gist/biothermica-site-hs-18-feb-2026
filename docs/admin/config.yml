@@ -318,7 +318,7 @@ collections:
 
   - name: "fr_documents"
     label: "Documents (FR)"
-    folder: "docs/fr  /documents"
+    folder: "docs/fr/documents"
     # nested:
     #   depth: 3
     extension: "html"
