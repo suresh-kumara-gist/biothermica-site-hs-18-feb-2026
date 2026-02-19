@@ -329,14 +329,12 @@ collections:
   - name: "fr_tags"
     label: "Tags (FR)"
     folder: "docs/fr/tags"
-    # nested:
-    #   depth: 3
     extension: "html"
     create: true
     delete: true
     format: "frontmatter"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "tag-fr" }
       - { label: "Language", name: "lang", widget: "hidden", default: "fr" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
@@ -345,6 +343,7 @@ collections:
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Path EN", name: "path_en", widget: "string", required: false }
       - { label: "Path FR", name: "path_fr", widget: "string", required: false }
+      - { lalabel: "Term ID", name: "termId", widget: "number", value_type: "int" }
 
       - label: "Page Content (HTML)"
         name: "body"
