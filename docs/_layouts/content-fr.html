@@ -127,7 +127,7 @@ dir="ltr" version="HTML+RDFa 1.1"
                       {% if has_children %}sf-total-children-{{ item.children.size }} menuparent{% else %}sf-no-children{% endif %}
                   ">
       
-                          <a href="../{{ item.url }}" class="sf-depth-1 {% if has_children %}menuparent{% endif %}">
+                          <a href="../../{{ item.url }}" class="sf-depth-1 {% if has_children %}menuparent{% endif %}">
                             {{ item.title }}
                           </a>
       
@@ -140,7 +140,7 @@ dir="ltr" version="HTML+RDFa 1.1"
                             sf-depth-2
                             sf-no-children
                         ">
-                              <a href="../{{ child.url }}" class="sf-depth-2">
+                              <a href="../../{{ child.url }}" class="sf-depth-2">
                                 {{ child.title }}
                               </a>
                             </li>
