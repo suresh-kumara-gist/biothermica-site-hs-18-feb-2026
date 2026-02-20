@@ -1,13 +1,13 @@
 ---
 layout: default
 lang: en
-title: "Projects"
+title: "default"
 meta_title: "Projects | biothermica"
 meta_description: ""
 rss_feed_title: ""
 permalink: 404.html
 path_en: 404.html
-path_fr: fr/404.html
+path_fr: ""
 ---
 
 <section id="section-content" class="section section-content">
@@ -54,6 +54,16 @@ path_fr: fr/404.html
               </div>
             </div>
           </div>
+
+          <h2 class="title" id="page-title-french">Page non trouvée</h2>
+          <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+            <div class="block-inner clearfix">
+
+              <div class="content clearfix error-message-french">
+              </div>
+            </div>
+          </div>
+
           <div class="block block-block block-5 block-block-5 even block-without-title" id="block-block-5">
             <div class="block-inner clearfix">
 
@@ -77,5 +87,12 @@ path_fr: fr/404.html
       el.textContent =
         'The requested page "' + path + '" could not be found.';
     }
+
+    var el = document.querySelector('.error-message-french');
+
+    if (el) {
+      el.textContent =
+        "La page demandée " + path + " n'a pas pu être trouvée.";
+    }    
   })();
 </script>
