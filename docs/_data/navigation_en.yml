@@ -21,9 +21,9 @@
   url: air-pollution-control.html
   children:
     - title: "BIOTOX® RTO"
-      urlair-pollution-control.html
+      url: air-pollution-control.html
     - title: "RTO Projects"
-      urlair-pollution-control/projects.html
+      url: air-pollution-control/projects.html
 
 - title: "VAMOX®"
   url: content/vamox.html
@@ -38,10 +38,10 @@
       url: content/first-vamox-project.html
 
 - title: "Landfill Gas Services"
-  urllandfill-Gas.html
+  url: landfill-Gas.html
   children:
     - title: "Expertise"
-      urllandfill-Gas.html
+      url: landfill-Gas.html
     - title: "Biogaz Projects"
       url: content/projects-0.html
 
@@ -60,18 +60,18 @@
       url: https://www.biothermica.comcontent/carbon-and-energy/bioenergy-togo.html
 
 - title: "Documents"
-  urldocuments.html
+  url: documents.html
   children:
     - title: "Press Releases"
-      urldocuments/1.html
+      url: documents/1.html
     - title: "Presentations"
-      urldocuments/2.html
+      url: documents/2.html
     - title: "Publications"
-      urldocuments/3.html
+      url: documents/3.html
     - title: "Brochures"
-      urldocuments/4.html
+      url: documents/4.html
     - title: "Internal policies"
-      urldocuments/66.html
+      url: documents/66.html
 
 - title: "Contact"
   url: content/contact.html
