@@ -59,7 +59,7 @@
                    sf-no-children
                  {% endif %}">
 
-                    <a href="/en{{ item.url }}"
+                    <a href="{{ item.url }}"
                       class="sf-depth-1 {% if page.url == item.url %}active{% endif %} {% if has_children %}menuparent{% endif %}">
                       {{ item.title }}
                     </a>
@@ -76,7 +76,7 @@
                        sf-depth-2
                        sf-no-children">
 
-                        <a href="/en{{ child.url }}" class="sf-depth-2">
+                        <a href="{{ child.url }}" class="sf-depth-2">
                           {{ child.title }}
                         </a>
                       </li>
