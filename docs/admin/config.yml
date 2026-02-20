@@ -11,7 +11,7 @@ public_folder: "docs/sites/biothermica.com/files"
 collections:
   - name: "en_air_pollution_control_projects"
     label: "EN Air Pollution Control Projects"
-    folder: "docsair-pollution-control/projects"
+    folder: "docs/air-pollution-control/projects"
     create: true
     nested:
       depth: 3
@@ -30,7 +30,7 @@ collections:
 
   - name: "en_assainissement_projets"
     label: "EN Assainissement Projets"
-    folder: "docsassainissement/projets"
+    folder: "docs/assainissement/projets"
     create: true
     nested:
       depth: 3
@@ -49,7 +49,7 @@ collections:
 
   - name: "en_carbon_and_energy"
     label: "EN Carbon And Energy"
-    folder: "docscarbon-and-energy"
+    folder: "docs/carbon-and-energy"
     create: true
     extension: "html"
     format: "frontmatter"
@@ -61,10 +61,9 @@ collections:
       field: "lang"
       value: "en"
 
-
   - name: "en_content"
     label: "Contents (EN)"
-    folder: "docscontent"
+    folder: "docs/content"
     # nested:
     #   depth: 3
     extension: "html"
@@ -95,7 +94,7 @@ collections:
 
   - name: "en_documents"
     label: "Documents (EN)"
-    folder: "docsdocuments"
+    folder: "docs/documents"
     # nested:
     #   depth: 3
     extension: "html"
@@ -125,7 +124,7 @@ collections:
 
   - name: "en_tags"
     label: "Tags (EN)"
-    folder: "docstags"
+    folder: "docs/tags"
     # nested:
     #   depth: 3
     extension: "html"
@@ -153,8 +152,7 @@ collections:
     filter:
       field: "lang"
       value: "en"
-
-
+  
   - name: "en_pages"
     label: "English Pages"
     folder: "docs/en"
@@ -314,6 +312,20 @@ collections:
       field: "lang"
       value: "fr"
 
+  - name: "fr_carbon_and_energy"
+    label: "FR Carbon And Energy"
+    folder: "docs/fr/https_/www.biothermica.com/fr/content/carbone-et-énergie"
+    create: true
+    extension: "html"
+    format: "frontmatter"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "content" }
+    filter:
+      field: "lang"
+      value: "fr"
+
   - name: "fr_tags"
     label: "Tags (FR)"
     folder: "docs/fr/tags"
@@ -370,5 +382,3 @@ collections:
     filter:
       field: "lang"
       value: "fr"
-
-
