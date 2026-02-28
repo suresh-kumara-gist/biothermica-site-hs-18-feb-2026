@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: hello-snamy/biothermica-site
+  repo: suresh-kumara-gist/biothermica-site-hs-18-feb-2026
   branch: main
-  base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/repo/698e8cf8f3f9aacf96d58ada
+  base_url: https://suresh-issue-82.dcycleproject.org/
+  auth_endpoint: /auth/github/repo/6995f009f3f9aacf96d58e5f
 
 media_folder: "sites/biothermica.com/files"
 public_folder: "/sites/biothermica.com/files"
