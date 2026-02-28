@@ -8,7 +8,7 @@ site-slogan-en: Our Energy for a Cleaner Environment
 
 defaults:
   - scope:
-      path: ""
+      path: "en"
     values:
       layout: default
       lang: en
